@@ -1,0 +1,64 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "阅读"
+		}
+	}    ,{
+            "path" : "pages/fenclass/fenclass",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/books/books",
+            "style" : {
+				"navigationBarTitleText": "图书大全"
+			}
+        }
+        ,{
+            "path" : "pages/mylife/mylife",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#fb7299",
+		"backgroundColor": "#EE5C42"
+	},
+	"tabBar": {
+		"color":"#696969",
+		"selectedColor":"#fb7299",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "书城",
+				"iconPath": "static/11.png",
+				"selectedIconPath": "static/11.1.png"
+				
+			},
+			{
+				"pagePath": "pages/fenclass/fenclass",
+				"text": "分类",
+				"iconPath": "static/22.png",
+				"selectedIconPath": "static//22.2.png"
+			},
+			{
+				"pagePath": "pages/books/books",
+				"text": "书架",
+				"iconPath": "static/33.png",
+				"selectedIconPath": "static/33.3.png"
+			},
+			{
+				"pagePath": "pages/mylife/mylife",
+				"text": "我的",
+				"iconPath": "static/44.png",
+				"selectedIconPath": "static/44.4.png"
+			}
+		]
+	}
+	
+	
+}
